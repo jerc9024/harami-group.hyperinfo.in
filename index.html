@@ -1,0 +1,22 @@
+<html>
+ <head>
+ <title>Home - Story</title>
+ <link rel="icon" type="image/png" href="home/img/profile/1.jpg">
+ <script type="text/javascript" src="code/video-player1.min.js"></script>
+ </head>
+ <body>
+     <body style="background-color:black;">
+     <center>
+ <video class="afterglow" id="film" width="1280" height="720" controls autoplay>
+ <source type="video/mp4" src="vid/fbi.mp4" />
+ </video>
+ <script>
+	let film = document.getElementById("film");
+	film.onended = function() {
+		console.log("Hello, world!");
+		window.location = "home";
+			}
+ </script>
+     </center>
+ </body>
+<html>
